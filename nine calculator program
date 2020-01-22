@@ -1,4 +1,18 @@
- #this shows up to signfy the booting of the program.
+# here the code is modified so that the program does not blow up and display error massages due to wrong input. i1t simply exits.
+# this is to return the sum of num1 and num2.
+def add(num1, num2):
+	return num1 + num2
+# this is to return the result of subtracting num1 and num2
+def sub(num1, num2):
+	return num1 - num2
+# this is to return the product of num1 and num2
+def mul(num1, num2):
+	return num1 * num2
+# this is to return the result of dividing num1 and num2	
+def div(num1, num2):
+	return num1 / num2
+	
+	 #this shows up to signfy the booting of the program.
 print ("booting system")
 print ('.....................')
 print ( 'configuring settings :_ _ _')
@@ -22,22 +36,7 @@ elif(myPad == "no"):
 	print ("okay i understand.")
 else: 
 	print ("Thats an invalid response,system will now  shutdown")
-
-	#caculator for nine starts here.  	
-# here the code is modified so that the program does not blow up and display error massages due to wrong input. i1t simply exits.
-# this is to return the sum of num1 and num2.
-def add(num1, num2):
-	return num1 + num2
-# this is to return the result of subtracting num1 and num2
-def sub(num1, num2):
-	return num1 - num2
-# this is to return the product of num1 and num2
-def mul(num1, num2):
-	return num1 * num2
-# this is to return the result of dividing num1 and num2	
-def div(num1, num2):
-	return num1 / num2
-	
+		
 
 def main():
 	user_continue = True
