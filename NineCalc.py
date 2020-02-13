@@ -11,34 +11,7 @@ def mul(num1, num2):
 # this is to return the result of dividing num1 and num2	
 def div(num1, num2):
 	return num1 / num2
-	
-	 #this shows up to signfy the booting of the program.
-print ("booting system")
-print ('.....................')
-print ( 'configuring settings :_ _ _')
-print ('system ready') 
- #this is to capture the name of the particpant and repond accordingly.
-myVar = "hello!"
-print (myVar) 
-myName = input('what is your name?') 
-print ('pleased to meet you')
-print (myName)
-print ('My name is Nine.')
- # this is to capture the intentions of the particpant
-print ('I would like to run some simple analysis.')
-myPad = input('Would you do some simple calculations with me?') 
- # this is a conditional operator that provides a response depending on the answers given above.
-print (myPad) 
-if ( myPad == "yes"):
-	print ("okay let us proceed then.")
-	print ("please enter the relevant inputs where necessary.")
-elif(myPad == "no"):
-	print ("okay i understand.")
-else: 
-	print ("Thats an invalid response,system will now  shutdown")
-		
-        #CALCULATOR STARTS HERE
-def main():
+def calc():
 	user_continue = True
 	while user_continue:
 		#Allows user to run basic calculator operations with two numbers.
@@ -75,3 +48,30 @@ def main():
 			break
 		else:
 			continue
+
+
+	 #this shows up to signfy the booting of the program.
+print ("booting system")
+print ('.....................')
+print ( 'configuring settings :_ _ _')
+print ('system ready') 
+ #this is to capture the name of the particpant and repond accordingly.
+myVar = "hello!"
+print (myVar) 
+myName = input('what is your name?') 
+print ('pleased to meet you')
+print (myName)
+print ('My name is Nine.')
+ # this is to capture the intentions of the particpant
+print ('I would like to run some simple analysis.')
+myPad = input('Would you do some simple calculations with me?') 
+ # this is a conditional operator that provides a response depending on the answers given above.
+print (myPad) 
+if ( myPad == "yes"):
+	print ("okay let us proceed then.")
+	print ("please enter the relevant inputs where necessary.")
+	calc()
+elif(myPad == "no"):
+	print ("okay i understand.")
+else: 
+	print ("Thats an invalid response,system will now  shutdown")
